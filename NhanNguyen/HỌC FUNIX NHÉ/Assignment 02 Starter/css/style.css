@@ -120,7 +120,7 @@ body {
 
 .fullstack{
   opacity: 50%;
-  
+
 }
 .topnav i{
   color: #3498db;
@@ -339,8 +339,9 @@ HOBBY*/
 }
 table{
   height: 200px;
+  text-align: top;
  
-}
+}      
 td{
   border-top: 1px solid rgb(224, 221, 221);;
   padding: 0 10px;
@@ -358,7 +359,7 @@ td{
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 20px;
   padding: 20px;
-  border-top: 1px solidr gb(224, 221, 221);;
+  border-top: 1px solid rgb(224, 221, 221);
 }
 .year{
   background-color: #007bff;  
