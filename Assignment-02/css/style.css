@@ -62,11 +62,10 @@ body {
 
 .topnav {
   display: grid;
-  grid-template-columns: repeat(7, 1fr); /* 7 phần bằng nhau */
+  grid-template-columns: repeat(5, 1fr); /* 7 phần bằng nhau */
   text-align: center;
-  
+  /*  */
 }
-
 .topnav .active {
   padding-top: 5px;
 }
@@ -127,11 +126,18 @@ body {
   font-size: 10px;
 }
 
-.avatar{
- width: 40px;
- height: 40px;
+.avatar-img{
+ width: 150px;
+ height: 150px;
+ position:absolute; 
+ border-radius: 50%;
+ border: 5px solid white;
+ transform: translateY(-60px);
+ right: 44%;
+ left: auto;
+ 
+ 
 }
-
 /*TARGET*/
 .target{
   display: grid;
@@ -340,11 +346,13 @@ HOBBY*/
 table{
   height: 200px;
   text-align: top;
- 
+  line-height: 1.5;
+  /* */
 }      
 td{
-  border-top: 1px solid rgb(224, 221, 221);;
-  padding: 0 10px;
+  border-top: 1px solid rgb(224, 221, 221);
+  padding: 10px 10px;
+  vertical-align: top;
 }
 
 .box{
@@ -352,7 +360,7 @@ td{
 }
 .user{
   display: flex;
-  gap:10px
+  gap:10px;
 }
 .years{
   display: grid;
@@ -379,13 +387,14 @@ footer{
   justify-content: center;
   gap: 40px;
 }
-.infor a{
+.inf a{
   color: rgb(129, 127, 127);      
   text-decoration: none;
   font-size: 15px;
 }
 
-.infor i{
+.inf i{
   color: #3e90e8;
   font-size: 17px;
+ 
 }
