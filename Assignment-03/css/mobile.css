@@ -1,0 +1,21 @@
+
+@media(max-width:500px){
+  .topnav{
+    display: block;
+  }
+  .target{
+    display: block;
+  }
+  .business{
+    display: block;
+    
+  }
+  .experience{
+    margin: 10px 10px;
+  }
+  .banner .banner-img {
+    width: 300px;
+    height: 100px;
+  }
+  
+}

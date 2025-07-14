@@ -1,0 +1,47 @@
+
+@media(max-width:768px){
+  .avatar-img {
+    display: none;
+  }
+  .topnav .active{
+    padding: 10px;
+  }
+  .target {
+    margin: 0 10px;
+  }
+  .banner .banner-img{
+    width: 750px;
+    height: 360px;
+  }
+  
+  .left-column,
+  .right-column {
+    padding: 20px ;
+  }
+
+  /* thong tin nghe nghiep */
+  
+  .icon-hobby{
+    display: grid;
+    color:#3a9de4; 
+    grid-template-columns: 1fr 1fr;
+    gap:2px;
+    text-align: center;
+  }
+
+.icon-circle-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #64b7f3;
+}
+.loa p{
+  font-size: 10px;
+  color:#3a9de4; 
+  
+}
+
+}
